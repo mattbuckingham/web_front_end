@@ -607,8 +607,10 @@ ul.row{
 .button:hover {
   color: var(--button-hover-color);
   text-decoration: var(--button-hover-text-decoration);
-  background: var(--button-hover-background);
-  transition: background-color var(--transition-duration) var(--transition-cubic-bezier), color var(--transition-duration) var(--transition-cubic-bezier);
+  background-color: var(--button-hover-background);
+  transition-duration: var(--transition-duration);
+  transition-property: color, background-color;
+  
 }
 
 [data-section-theme="dark"] {
@@ -750,5 +752,3 @@ ul.row{
 .card-work:hover .card-outer{
   transform: scale(0.95);
 }
-
-
