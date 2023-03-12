@@ -554,3 +554,9 @@ ul.row{
   float: left;
   padding: 0.5rem;
 }
+
+[data-section-theme="dark"] {
+  --text-color: white;
+  --section-title-color: white;
+  background: var(--color-black);
+}
