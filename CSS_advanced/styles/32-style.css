@@ -608,6 +608,7 @@ ul.row{
   color: var(--button-hover-color);
   text-decoration: var(--button-hover-text-decoration);
   background: var(--button-hover-background);
+  transition: background-color var(--transition-duration) var(--transition-cubic-bezier), color var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 [data-section-theme="dark"] {
@@ -749,10 +750,6 @@ ul.row{
 
 .nav .nav-link::before {
   transition: var(--transition-duration) var(--transition-cubic-bezier);
-}
-
-.button:hover {
-  transition: background-color var(--transition-duration) var(--transition-cubic-bezier), color var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work .card-inner {
