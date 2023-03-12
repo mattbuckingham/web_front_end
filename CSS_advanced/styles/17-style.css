@@ -457,6 +457,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .section-header {
     text-align: var(--section-header-align);
+    padding: var(--section-header-padding);
   }
 
 .section-body {
